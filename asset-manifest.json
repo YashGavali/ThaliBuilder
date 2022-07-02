@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ThaliBuilder/static/css/main.e03bb2b5.css",
+    "main.js": "/ThaliBuilder/static/js/main.c1d98012.js",
+    "index.html": "/ThaliBuilder/index.html",
+    "main.e03bb2b5.css.map": "/ThaliBuilder/static/css/main.e03bb2b5.css.map",
+    "main.c1d98012.js.map": "/ThaliBuilder/static/js/main.c1d98012.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e03bb2b5.css",
+    "static/js/main.c1d98012.js"
+  ]
+}
