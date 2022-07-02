@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation/Navigation';
+import {Routes,Route} from "react-router-dom"; 
+import Thali from './components/Thali/Thali';
+import Checkout from './components/Checkout/Checkout';
+import { connect } from 'react-redux/es/exports';
 
-function App() {
+function App({finalThali}) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navigation finalThali={finalThali}/>
+    <Routes>
+<Route path="/" element={<Thali/>}/>
+{}
+<Route path="/Checkout" element={<Checkout />}/>
+    </Routes>
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = (state) =>{
+  return {
+    finalThali: state.shop.finalThali,
+  };
+}
+
+
+export default connect(mapStateToProps) (App);

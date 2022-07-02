@@ -1,0 +1,16 @@
+.mainContainer{
+    display: flex;
+    border: 1px solid black;
+    background-color: bisque;
+    padding :30px;
+}
+
+.textContainer{
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 3px;;
+}

@@ -1,0 +1,28 @@
+.mainContainer{
+    position: relative;
+    display: flex;
+    border: 2px solid black;
+    margin:20px;
+    padding:10px 150px 10px 10px;
+    border-radius: 5px;
+    color:#2C3639;
+    font-weight: 600;
+    font-size: larger;
+    line-height: 30px;
+}
+
+.qtyContainer{
+    
+    margin-left: 10px;
+    padding: 0 4px 0;
+    background-color: #EB4747;
+    border-radius: 2px;
+    color:#FFFDFB;
+
+}
+
+.buttonContainer{
+    position: absolute;
+    right:10px;
+    border-radius: 5px;
+}

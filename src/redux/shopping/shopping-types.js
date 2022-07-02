@@ -1,0 +1,2 @@
+export const ADD_TO_THALI = "ADD_TO_THALI";
+export const REMOVE_FROM_THALI = "REMOVE_FROM_THALI";
